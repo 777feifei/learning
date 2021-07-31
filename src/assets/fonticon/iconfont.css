@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2684020 */
+  src: url('iconfont.woff2?t=1627369047049') format('woff2'),
+       url('iconfont.woff?t=1627369047049') format('woff'),
+       url('iconfont.ttf?t=1627369047049') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tree1:before {
+  content: "\e64a";
+}
+
+.icon-setting:before {
+  content: "\e676";
+}
+
+.icon-user:before {
+  content: "\e617";
+}
+
+.icon-form:before {
+  content: "\e600";
+}
+
+.icon-example:before {
+  content: "\e603";
+}
+
+.icon-tree2:before {
+  content: "\e630";
+}
+
+.icon-role:before {
+  content: "\e610";
+}
+
+.icon-menu:before {
+  content: "\e62f";
+}
+
+.icon-login_actions:before {
+  content: "\e6bb";
+}
+
+.icon-eye-open:before {
+  content: "\e602";
+}
+
+.icon-menu1:before {
+  content: "\e6ec";
+}
+
+.icon-dashboard:before {
+  content: "\e6e0";
+}
+
+.icon-system:before {
+  content: "\e632";
+}
+
+.icon-zuozhedie:before {
+  content: "\e64d";
+}
+
+.icon-xingmingyonghumingnicheng:before {
+  content: "\e623";
+}
+
+.icon-mima:before {
+  content: "\e609";
+}
+
+.icon-biyan:before {
+  content: "\e611";
+}
+
+.icon-yanjing_kai:before {
+  content: "\e61b";
+}
+
+.icon-fuzhi:before {
+  content: "\e653";
+}
+
+.icon-jietu:before {
+  content: "\e85a";
+}
+
+.icon-table:before {
+  content: "\e955";
+}
+
+.icon-tubiao:before {
+  content: "\e698";
+}
+
+.icon-zhuye:before {
+  content: "\e63a";
+}
+
+.icon-shangchuan:before {
+  content: "\e62b";
+}
+
+.icon-fuwenben:before {
+  content: "\e615";
+}
+
+.icon-tree:before {
+  content: "\e6b9";
+}
+
+.icon-sousuo:before {
+  content: "\e6a8";
+}
+
+.icon-daohangzhankai-:before {
+  content: "\e712";
+}
+
+.icon-fullScreen:before {
+  content: "\e627";
+}
+
+.icon-zhediejiantou_Blackbeifen2x:before {
+  content: "\e604";
+}
+
+.icon-zhediejiantou_Black2x:before {
+  content: "\e605";
+}
+
+.icon-ziyuan:before {
+  content: "\e60b";
+}
+

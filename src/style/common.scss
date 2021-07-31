@@ -1,0 +1,49 @@
+//  滚动条样式
+div::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+}
+div::-webkit-scrollbar-track {
+    background-color: #efefef;
+    border-radius: 2px;
+}
+div::-webkit-scrollbar-thumb {
+    background-color: #c9c9c9;
+    border-radius: 10px;
+}
+div::-webkit-scrollbar-thumb:hover {
+    background-color: #747474;
+}
+div::-webkit-scrollbar-corner { 
+    background-color: #179a16;
+}
+ul {
+    list-style: none;
+    margin: 0;
+}
+.search {
+    background-color: #fff;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+// 边距
+.m_r_10 {
+    margin-right: 10px;
+}
+.m_r_20 {
+    margin-right: 20px;
+}
+.m_l_5 {
+    margin-left: 5px;
+}
+.m_l_10 {
+    margin-left: 10px;
+}
+.m_b_10 {
+    margin-bottom: 10px;
+}
+.m_b_5 {
+    margin-bottom: 5px;
+}
