@@ -9,6 +9,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 import '@/assets/fonticon/iconfont.css'
 
 import './permission' // 路由导航
+import '@/icons' // 图标
 
 Vue.config.productionTip = false
 Vue.use(Element)

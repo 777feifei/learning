@@ -110,7 +110,10 @@ export default {
 }
 .view {
   height: calc(100% - 80px);
+  margin: 0 10px;
   overflow: auto;
+  padding: 10px 0;
+  background-color: #fff;
 }
 
 </style>

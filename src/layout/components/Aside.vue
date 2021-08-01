@@ -13,11 +13,7 @@
         <template v-if="item.children && item.children.length > 0">
           <el-submenu :index="item.path">
             <template slot="title">
-              <i class="el-icon-document"></i>
-              <!-- <i
-                :class="['iconfont', `icon-` + item.meta.icon]"
-                id="iconfont"
-              ></i> -->
+              <svg-icon :icon-class="item.meta.icon" />
               {{ item.meta.title }}
             </template>
             <el-menu-item
@@ -26,19 +22,14 @@
               :key="son.path"
               :index="son.path"
             >
-              
-              <i
-                :class="['iconfont', `icon-` + son.meta.icon]"
-                id="iconfont"
-              ></i>
+               <svg-icon :icon-class="son.meta.icon" />
               {{ son.meta.title }}
             </el-menu-item>
           </el-submenu>
         </template>
-
         <template v-else>
           <el-menu-item :index="item.path">
-             <i class="el-icon-document"></i>
+             <svg-icon :icon-class="item.meta.icon" />
             <span slot="title">
               {{ item.meta.title }}
             </span>

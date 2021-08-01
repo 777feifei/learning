@@ -1,6 +1,6 @@
 <template>
     <div>
-     menumenumenumenumenumenumenumenumenumenumenu
+   config
     </div>
 </template>
 
