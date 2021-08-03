@@ -11,6 +11,9 @@ import '@/assets/fonticon/iconfont.css'
 import './permission' // 路由导航
 import '@/icons' // 图标
 
+
+// import the styles
+
 Vue.config.productionTip = false
 Vue.use(Element)
 new Vue({

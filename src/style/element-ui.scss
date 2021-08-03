@@ -45,8 +45,6 @@
   min-width: 100px !important;
 }
 
-.openSidebar {
-}
 
 .hiddenSidebar {
   ::v-deep .el-menu--collapse {
@@ -68,4 +66,7 @@
       color: #66b1ff;
 
     }
+  }
+  .vue-treeselect {
+    max-width: 250px;
   }

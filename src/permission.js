@@ -5,6 +5,7 @@ import 'nprogress/nprogress.css'
 import {getToken,getRefreshToken} from '@/utils/auth.js'
 const whiteList = ['/login']
 
+
 router.beforeEach(async (to,form,next) => {
     NProgress.start()
     let token = store.getters.token || getToken() ||  getRefreshToken()

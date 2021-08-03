@@ -5,6 +5,8 @@ import {getToken,getRefreshToken} from '@/utils/auth.js'
 // import NProgress from 'nprogress'
 // import 'nprogress/nprogress.css'
 
+console.log('store', store)
+
 const service = axios.create({
     // 请求超时时长
     timeout: 5000,
